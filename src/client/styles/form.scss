@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+#url{
+    position: absolute;
+    border: 2px solid white;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 50%;
+    height: 50px;
+    font-size: 2em;
+    border-radius: 5px;
+    top: 40vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    transition: .3s;
+}
+
+#results{
+    display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 50%;
+    height: 450px;
+    font-size: 2em;
+    top: 50vh;
+    bottom: 50px;
+    left: 1-px;
+    right: 0px;
+    transition: .4s;
+	margin: auto;
+    padding-top: 50px;
+}
